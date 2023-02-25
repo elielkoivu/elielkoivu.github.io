@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin: 5rem 10rem 5rem 10rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.separator {
+    min-width: 1px;
+    height: 100vh;
+    margin: 0rem 10rem 0rem 10rem;
+    background-color: black;
+}
+
+.nav-container {
+    position: fixed;
+}
+
+.left-column {
+    width: 125px;
+}
+
+.right-column {
+    width: 70%;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-header {
+    font-size: 32px;
+}
+
+.card {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 3rem;
+    background-color: blueviolet;
+}
+
+.logo {
+    width: 125px;
+    height: 125px;
+    background-color: blue; 
+}
